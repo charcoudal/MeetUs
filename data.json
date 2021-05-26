@@ -1,0 +1,18 @@
+{
+    "members":[
+        {
+            "name": "Natalia Novoa",
+            "university": "Northwestern University",
+            "age": 21,
+            "major": "Computer Science",
+            "interests": ["UX/UI","Design","Front-End"]
+        },
+        {
+            "name": "Cristina Barclay",
+            "university": "Northwestern University",
+            "age": 21,
+            "major": "Computer Science",
+            "interests": ["Backend","Full-Stack","API"]
+        }
+    ]
+}
