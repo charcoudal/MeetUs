@@ -2,18 +2,52 @@
 <html lang="en" dir="ltr">
     <link rel="stylesheet" href="css/meetUS.css">
         <!-- Navigation -->
-    <header>
-    
-
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#news">News</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#about">About</a></li>
-            </ul>
+    <header> 
+        <ul>
             
-    
+            <li><a class="name" >John Doe</a></li>
+            <li><a href="#home" onclick="window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+              });">About Me</a></li>
+            <li><a href="#news">Experience</a></li>
+            <li><a href="#contact">Projects</a></li>
+            <li><a href="#about" onclick="window.scrollTo({
+                top: 800,
+                left: 0,
+                behavior: 'smooth'
+              });">Contact</a></li>
+        </ul>
+        
     </header>
+    <body>
+        <div class="aboutme">
+            <section class="info">
+                <h1 id="welcoming">Hi, my name is John Doe</h1>
+                <h2 id="aboutme">About me</h2>
+                <p id="aboutmeinfo"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. Congue eu consequat ac felis donec. Libero volutpat sed cras ornare arcu. Pretium fusce id velit ut. Mauris sit amet massa vitae. Blandit cursus risus at ultrices mi tempus imperdiet. In metus vulputate eu scelerisque felis. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Facilisis leo vel fringilla est ullamcorper eget nulla. Eu augue ut lectus arcu bibendum at varius vel. Etiam sit amet nisl purus in mollis nunc.</p>
+
+            </section>
+            <section class ="profilepic">
+                <img src="images/pp.png" alt="profile picture" height="400" width="440">
+            </section>
+        </div>
+
+        <div class="contact">
+            <h1 class="emailtitle">Email Us!</h1>
+            <section class="email1">
+                <a href="mailto:charlottejones2022@u.northwestern.edu" class="button">Charlotte Jones</a>
+            </section>
+            <section class="email2">
+                <a href="mailto:cristinabarclay2022@u.northwestern.edu" class="button">Cristina Barclay</a>
+            </section>
+            <section class="email3">
+                <a href="mailto:natalianovoa2022@u.northwestern.edu" class="button">Natalia Novoa</a>
+             </section>
+
+        </div>
+    </body>
         
     <script type="text/javascript" src="js/index.js"></script>
     

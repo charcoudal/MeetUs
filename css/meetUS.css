@@ -1,3 +1,9 @@
+.aboutme,
+section {
+   /* adding borders for debugging */
+   
+}
+
 space{
     height: 500px;
 
@@ -13,8 +19,9 @@ h1{
 h2{
     text-align: center;
     font-family: 'Space Mono', monospace;
-    color: white;
-    -webkit-text-stroke: 0.5px black;
+    color:black;
+    
+    font-size: larger;
 }
 
 h3{
@@ -25,6 +32,65 @@ h3{
 
 }
 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    background-color: lightblue; /* Green */
+    color: rgb(100, 102, 219);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 200px;
+    
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "a a a"
+        "b c d";
+    height: 100%;
+    grid-row-gap: 20px;
+    padding: 70px;
+    align-content: center;
+  
+ }
+
+ .emailtitle{
+    grid-area: a;
+   
+}
+
+ .email1{
+     grid-area: b;
+     width: 200px;
+     margin: auto;
+
+ }
+
+ .email2{
+    grid-area: c;
+    width: 200px;
+    margin: auto;   
+}
+
+.email3{
+    grid-area: d;
+    width: 200px;
+    margin: auto;
+
+}
+
+  .button:hover {
+    color:lightblue;
+    background-color: blue;
+
+  }
 ul {
     list-style-type: none;
     margin: 0;
@@ -49,6 +115,51 @@ ul {
     background-color:white;
     color:  #333;
   }
+
+  .name{
+    margin-right: 58em;
+  }
+
+  .aboutme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "a b";
+    height: 100%;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding: 100px;
+    min-height: 200px;
+    min-width: 400px;
+ }
+
+ .info{
+     grid-area: b;
+     width: 200x;
+     margin-right: 150px;
+ }
+
+ .profilepic{
+     grid-area: a;
+     align-content: center;
+     width: 450px;
+     margin-left: 150px;
+ }
+ #welcoming{
+     text-align: left;
+     margin-left: 1em;
+ }
+ #aboutme{
+     text-align: left;
+     margin-left: 1.5em;
+ }
+ #aboutmeinfo{
+    text-align: left;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+
 
 body {
     height:100%;
