@@ -170,11 +170,14 @@ ul {
 
 .projects {
     display: flex;
+    justify-content: center;
+    text-align: center;
     flex-wrap: wrap;
     margin:100px;
  }
  .projects > section {
     display: flex;
+    justify-content: center;
     flex: 0 50%;
     width: 400px;
 
@@ -371,7 +374,45 @@ BUTTON FROM THIS SITE https://codepen.io/ahart814/pen/yLNMZGa */
         box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
   
   }
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
 
+  text-align: left;
+  font-size: 30px;
+  padding-left: 100px;
+  padding-left: 100px;
+  width: 500px;
+
+}
+
+
+
+.desc{
+  font-size: 14px;
+
+}
+.job:hover{
+  color: rgb(109, 109, 194);
+  font-size: 35px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 
 /* Media Queries */
 @media (max-width: 800px) {
