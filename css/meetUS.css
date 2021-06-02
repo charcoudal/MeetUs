@@ -8,7 +8,7 @@
     width: 100%;
     z-index:1
   }
-  
+
   .sticky + .content {
     padding-top: 60px;
   }
@@ -22,10 +22,10 @@ html{
     display: flex;
     justify-content: center;
     text-align: center;
-  
+
     padding-bottom: 100px;
     color: #222;
-    height: 750px; 
+    height: 750px;
 }
 
 .space {
@@ -53,7 +53,7 @@ h2{
     text-align: center;
     font-family: 'Space Mono', monospace;
     color:black;
-    
+
     font-size: larger;
 }
 
@@ -94,12 +94,11 @@ header ul {
     overflow: hidden;
     background-color: #333;
   }
-  
+
   li {
     float: left;
-    text-decoration: none;
   }
-  
+
   li a {
     display: block;
     color: white;
@@ -107,7 +106,7 @@ header ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   li a:hover {
     background-color:white;
     color:  #333;
@@ -241,14 +240,14 @@ body{
     width: 400px;
 
  }
- 
+
  .projects > section div {
-  
+
    margin:20px;
    width: 400px;
    background-color: white;
  }
- 
+
  .projects > section img{
    width: 400px;
  }
@@ -310,7 +309,7 @@ main {
 }
 
 
-/* 
+/*
 BUTTON FROM THIS SITE https://codepen.io/ahart814/pen/yLNMZGa */
 :root {
     --backgroundColor: rgba(246, 241, 209);
@@ -320,7 +319,7 @@ BUTTON FROM THIS SITE https://codepen.io/ahart814/pen/yLNMZGa */
     --colorShadeD: rgb(187, 232, 211);
     --colorShadeE: rgb(205, 255, 232);
   }
-  
+
   @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
   * {
     box-sizing: border-box;
@@ -347,10 +346,10 @@ BUTTON FROM THIS SITE https://codepen.io/ahart814/pen/yLNMZGa */
     font-size: 1.5rem;
       color:var(--colorShadeA);
     font-weight: 700;
-    
+
     font-family: inherit;
   }
-  
+
   button.big-button {
     padding: 1em 2em;
     border: 2px solid var(--colorShadeA);
@@ -375,26 +374,26 @@ BUTTON FROM THIS SITE https://codepen.io/ahart814/pen/yLNMZGa */
     transform: translate3d(0, 0.75em, -1em);
     transition: all 175ms cubic-bezier(0, 0, 1, 1);
   }
-  
-  
+
+
   button.big-button:hover {
     background: var(--colorShadeD);
     transform: translate(0, 0.375em);
   }
-  
+
   button.big-button:hover::before {
     transform: translate3d(0, 0.75em, -1em);
   }
-  
+
   button.big-button:active {
               transform: translate(0em, 0.75em);
   }
-  
+
   button.big-button:active::before {
     transform: translate3d(0, 0, -1em);
-    
+
         box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
-  
+
   }
 /* Create two equal columns that floats next to each other */
 .column {

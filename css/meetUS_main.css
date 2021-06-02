@@ -1,0 +1,190 @@
+h1{
+    text-align: center;
+    font-family: 'helvetica';
+    color: black;
+    -webkit-text-stroke: 0.5px black;
+}
+
+h2{
+    text-align: center;
+    font-family: 'helvetica';
+    color: black;
+    font-style: italic;
+    -webkit-text-stroke: 0.5px black;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:white;
+    color:  #333;
+  }
+
+body {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+body * {
+    box-sizing: border-box;
+    /* border: solid 1px #000; */
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 20vh;
+    grid-template-areas:
+      "top"
+      "bottom";
+    height: 100vh;
+    width: 100vw;
+}
+#featured {
+    grid-area: top;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 10px;
+  }
+.card-group{
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr;
+  min-height: 100vh;
+}
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: helvetica;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+.image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.image.active {
+    border: solid 5px black;
+}
+
+.image:hover {
+    opacity: 0.7;
+}
+
+
+.preview_box {
+    width: 100%;
+    height: 100%;
+}
+
+.featured_image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.next, .prev, .close {
+    position: absolute;
+    color: white;
+    border-width: 0px;
+    font-size: 2.5em;
+}
+.next, .prev {
+    background: rgba(255,255,255,0.2);
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 5px;
+}
+.next:hover, .prev:hover, .close:hover {
+    background: rgba(255,255,255,0.4);
+}
+.prev {
+    top: 35vh;
+    left: 2vw;
+}
+.next {
+    top: 35vh;
+    right: 2vw;
+}
+
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+    main {
+        grid-template-rows: 1fr;
+        grid-template-areas:
+          "top";
+    }
+    main .cards { display: none; }
+}
