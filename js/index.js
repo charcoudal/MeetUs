@@ -1,3 +1,4 @@
+//EXPERIENCE TAB LIST
 function openJob(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -12,5 +13,20 @@ function openJob(evt, cityName) {
     evt.currentTarget.className += " active";
   }
   
-  // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+
+// STICKY NAVBAR
+window.onscroll = function() {navBar()};
+
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+function navBar() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
