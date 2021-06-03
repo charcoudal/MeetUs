@@ -395,6 +395,49 @@ BUTTON FROM THIS SITE https://codepen.io/ahart814/pen/yLNMZGa */
         box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
 
   }
+
+  .sidenav {
+    width: 70px;
+    position: fixed;
+    z-index: 1;
+    top: 500px;
+    left: 10px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    align-items: center;
+  }
+  
+  .sidenav ul {
+    padding: 6px 8px 10px 6px;
+    text-decoration: none;
+    color: #2196F3;
+    display: block;
+  }
+
+  .sidenav li {
+    
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+
+  .vl {
+    border-left: 3px solid black;
+    height: 500px;
+    padding-left: 2em;
+    text-align: center;
+    margin-left: 13px;
+  }
+  
+  .main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
