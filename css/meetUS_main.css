@@ -1,16 +1,21 @@
 h1{
-    text-align: center;
+    text-align: left;
+    margin-left: 90px;
     font-family: 'helvetica';
-    color: black;
-    -webkit-text-stroke: 0.5px black;
+    color: white;
+    font-style: italic;
+    font-size: 70px;
 }
 
 h2{
-    text-align: center;
+    margin-top: -40px;
+    text-align: left;
     font-family: 'helvetica';
-    color: black;
-    font-style: italic;
-    -webkit-text-stroke: 0.5px black;
+    color: white;
+    margin-left: 90px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
 }
 
 h3{
@@ -18,9 +23,40 @@ h3{
     font-family: 'Space Mono', monospace;
     color: white;
     -webkit-text-stroke: 0.5px black;
-
 }
 
+.name{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'helvetica';
+    color: black;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
 
 ul {
     list-style-type: none;
@@ -74,8 +110,9 @@ main {
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    font-family: helvetica;
     margin-top: 10px;
+    background: white;
   }
 .card-group{
   margin-top: 15px;
@@ -87,15 +124,25 @@ main {
   .title {
     color: grey;
     font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   
+  .year{
+      color: black;
+      font-size: 22px;
+      font-weight: bold;
+      font-style: normal;
+  }
   button {
     border: none;
     outline: 0;
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: black;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -106,6 +153,8 @@ main {
   a {
     text-decoration: none;
     font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
     color: black;
   }
   
@@ -119,6 +168,12 @@ main {
     width: 100%;
     height: 100%;
     cursor: pointer;
+}
+
+img{
+    object-fit: cover;
+    width:230px;
+    height:300px;
 }
 .image.active {
     border: solid 5px black;
