@@ -1,0 +1,28 @@
+{
+    "women": [
+        {
+            "_id": "w1",
+            "name": "Cristina Barclay",
+            "email": "cristinabarclay2022@u.northwestern.edu"
+            //image
+            //about me descrip
+            //job
+            //job company
+            //job descrip
+            //project name
+            //project descrip
+            //project images
+            
+        },
+        {
+            "_id": "w2",
+            "name": "Natalia Novoa",
+            "email": "natalianovoa2022@u.northwestern.edu"
+        },
+        {
+            "_id": "w3",
+            "name": "Charlotte Jones",
+            "email": "charlottejones2022@u.northwestern.edu"
+        }
+    ]
+}

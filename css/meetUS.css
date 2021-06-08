@@ -346,16 +346,7 @@ body * {
     box-sizing: border-box;
     /* border: solid 1px #000; */
 }
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 20vh;
-    grid-template-areas:
-      "top"
-      "bottom";
-    height: 100vh;
-    width: 100vw;
-}
+
 #featured {
     grid-area: top;
 }
@@ -535,9 +526,7 @@ BUTTON FROM THIS SITE https://codepen.io/ahart814/pen/yLNMZGa */
 
 }
 
-.emailtitle{
-    
-}
+
 
 
   #credits{
