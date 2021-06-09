@@ -3,15 +3,55 @@
         {
             "_id": "w1",
             "name": "Cristina Barclay",
-            "email": "cristinabarclay2022@u.northwestern.edu"
-            //image
-            //about me descrip
-            //job
-            //job company
-            //job descrip
-            //project name
-            //project descrip
-            //project images
+            "email": "cristinabarclay2022@u.northwestern.edu",
+            "image_url": "cristina_barclay.jpg",
+            "about_me" : "fill in",
+            "jobs": {
+                
+                "job1": {
+                    "role": "fill in ex intern",
+                    "company": "CreaCode",
+                    "description": "<li>i did this</li> <br><br> <li>i also did this</li>"
+                },
+                "job2": {
+                    "role": "fill in ex intern",
+                    "company": "RezEssentials",
+                    "description": "<li>Descrip</li> <br><br> <li>Descrip</li>"
+                },
+                "job3": {
+                    "role": "fill in ex intern",
+                    "company": "Banco de Credito del Peru",
+                    "description": "<li>Descrip</li> <br><br> <li>Descrip</li>"
+                },
+                "job4": {
+                    "role": "fill in ex intern",
+                    "company": "fill in, ex apple",
+                    "description": "<li>Descrip</li> <br><br> <li>Descrip</li>"
+                }
+            },
+            "projects": {
+                
+                "proj1": {
+                    "proj_name": "fill in",
+                    "proj_image_url": "images/pp.png",
+                    "description": "fill in"
+                },
+                "proj2": {
+                    "proj_name": "fill in",
+                    "proj_image_url": "images/pp.png",
+                    "description": "fill in"
+                },
+                "proj3": {
+                    "proj_name": "fill in",
+                    "proj_image_url": "images/pp.png",
+                    "description": "fill in"
+                },
+                "proj4": {
+                    "proj_name": "fill in",
+                    "proj_image_url": "images/pp.png",
+                    "description": "fill in"
+                }
+            }   
             
         },
         {
@@ -22,7 +62,57 @@
         {
             "_id": "w3",
             "name": "Charlotte Jones",
-            "email": "charlottejones2022@u.northwestern.edu"
+            "email": "charlottejones2022@u.northwestern.edu",
+            "image_url": "/charlotte_jones.jpg",
+            "about_me" : "Charlotte is a junior at Northwestern University, double majoring in Computer Science and Dance with minors in Film Studies and English Literature. Charlotte led the Peer Tutoring Program at Riverdale Country School and is now a Teacher's Assistant/ Peer Mentor for the Computer Science Department where she holds office hours, teaches weekly tutorial sessions and mentors her amazing students! She recently received the Spring 2020 Peter and Adrienne Barris Service Award for excellence in teaching. Specifically interested in Human Computer Interaction, Artificial Intelligence, and App Development, she is also a member of WiC (Women in Computing) where she promotes her fellow Women in STEM. She sees CS as an intersection of logic and creativity —a fusion of math, puzzles, and art. Fluent in Spanish, Char also studied ethics, international policy, Arabic, and Mandarin in D.C. at the School for Ethics and Global Leadership. She has continued her studies with the school as a guest speaker in Shakespeare as well as a mentee of Carl Wilkens in Rwanda. Her biggest passion project is founding Mission S.P.A. (Sanitary Product Awareness), a non-profit that collects and donates sanitary products to local NYC shelters along with schools in Nepal. When Charlotte is not computing, dancing, or advocating for gender equity worldwide, she is diving for the NCAA Midwestern conference, training for triathlons, watching House and eating pierogies. Her eclectic academic interests match her enthusiastic and individualized approach to teaching, mentoring, tutoring, and learning.",
+            "jobs": {
+               
+                "job1": {
+                    "role": "Software Engineering Intern",
+                    "company": "Groupon ",
+                    "description": "<li>Descrip</li> <br><br> <li>Descrip</li>"
+                },
+                "job2": {
+                    "role": "Peer Mentor/TA",
+                    "company": "Computer Science Dept NU",
+                    "description": "<li>Holds office hours, teaches a mandatory weekly tutorial session for groups of 15- 25 students, and facilitates questions over Zoom in the 200+ lecture.</li>"
+                },
+                "job3": {
+                    "role": "Web Accessibility Assistant",
+                    "company": "Global Marketing and Communications at NU",
+                    "description": "<li>Ensure that digital content is accessible for the entire Northwestern Community.</li> <br><br> <li>Descrip</li>"
+                },
+                "job4": {
+                    "role": "Software Engineering Intern",
+                    "company": "Rapunzl Investments",
+                    "description": "<li> Assisted in revamping investment banking educational branch website, along with various portal and tech tasks.</li>"
+                }
+            },
+            "projects": {
+               
+                "proj1": {
+                    "proj_name": "DTR: SOAP NOTES",
+                    "proj_image_url": "fill in",
+                    "description": "Current Project for Design, Technology, Research, a project course at Northwestern the optimizes, builds, and tests, structured note-taking in a mentor-mentee research setting"
+                },
+                "proj2": {
+                    "proj_name": "CS 303: Happiness Jar",
+                    "proj_image_url": "fill in",
+                    "description": "Final Project for Intro to HCI, a project course at Northwestern. The App explores themes around happiness and recalling one good thing that happened each day to promote peace and gratitude"
+                },
+                "proj3": {
+                    "proj_name": "TicTacs & Toes",
+                    "proj_image_url": "fill in",
+                    "description": "Independent Project working with Swift that explores BLANK"
+                },
+                "proj4": {
+                    "proj_name": "CS 377: Scooba Shooter",
+                    "proj_image_url": "fill in",
+                    "description": "Final Project for Game Studio, a project course at Northwestern. The Unity Built game explores themes of UI, continuous data and more through the endless runner shooter game. Underwater adventure and prioritization."
+                }
+            }  
+           
         }
+ 
     ]
 }

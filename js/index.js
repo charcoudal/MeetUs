@@ -9,6 +9,8 @@ const attachEventHandlers = () => {
   // you can attach event handlers to the DOM:
  
   document.querySelector('#selectCris').onclick = crisClick;
+  document.querySelector('#selectChar').onclick = charClick;
+  document.querySelector('#selectNati').onclick = natiClick;
   
 };
 
@@ -30,13 +32,29 @@ fetchWomen();
 const crisClick = () => {
   console.log("hre")
   currentWomen = women.filter(doc => doc._id === "w1")[0]
-  //updateDetail()
+  updateDetail();
+}
+
+const natiClick = () => {
+  console.log("hre")
+  currentWomen = women.filter(doc => doc._id === "w2")[0]
+  updateDetail();
+}
+
+const charClick = () => {
+  console.log("hre")
+  currentWomen = women.filter(doc => doc._id === "w3")[0]
+  updateDetail();
+}
+
+
+const updateDetail= () => {
   document.getElementById(`hello`).innerHTML = `<header> 
   <link rel="stylesheet" href="css/meetUS.css">
   <div id="navbar">
       <ul>
           
-          <li><a class="name" >John Doe</a></li>
+          <li><a class="name" >${currentWomen.name}</a></li>
           <li><a href="#home" onclick="window.scrollTo({
               top: 0,
               left: 0,
@@ -68,11 +86,11 @@ const crisClick = () => {
       <section class="info">
           <h1 id="welcoming">Hi, my name is ${currentWomen.name}</h1>
           <h2 id="aboutme">About me</h2>
-          <p id="aboutmeinfo"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. Congue eu consequat ac felis donec. Libero volutpat sed cras ornare arcu. Pretium fusce id velit ut. Mauris sit amet massa vitae. Blandit cursus risus at ultrices mi tempus imperdiet. In metus vulputate eu scelerisque felis. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Facilisis leo vel fringilla est ullamcorper eget nulla. Eu augue ut lectus arcu bibendum at varius vel. Etiam sit amet nisl purus in mollis nunc.</p>
+          <p id="aboutmeinfo"> ${currentWomen.about_me}</p>
 
       </section>
       <section class ="profilepic">
-          <img id="profilepicp" src="natalia_novoa.jpg" alt="profile picture" height="400" width="440">
+          <img id="profilepicp" src="${currentWomen.image_url}" alt="profile picture" height="400" width="440">
           <div class="image-overlay">
           </div>
       </section>
@@ -84,46 +102,39 @@ const crisClick = () => {
       <div class= "experience-box">
           
           <div class="tab">
-              <button class="tablinks" onclick="openJob(event, 'Job1')" id="defaultOpen">Job 1</button>
-              <button class="tablinks" onclick="openJob(event, 'Job2')">Job 2</button>
-              <button class="tablinks" onclick="openJob(event, 'Job3')">Job 3</button>
-              <button class="tablinks" onclick="openJob(event, 'Job4')">Job 4</button>
+              <button class="tablinks" onclick="openJob(event, 'Job1')" id="defaultOpen">${currentWomen.jobs.job1.company}</button>
+              <button class="tablinks" onclick="openJob(event, 'Job2')">${currentWomen.jobs.job2.company}</button>
+              <button class="tablinks" onclick="openJob(event, 'Job3')">${currentWomen.jobs.job3.company}</button>
+              <button class="tablinks" onclick="openJob(event, 'Job4')">${currentWomen.jobs.job4.company}</button>
           </div>
           
           <div id="Job1" class="tabcontent">
-              <h3 class="job-name">Job 1 <span style="color:#ee7752; border:hidden">@ Company</span></h3>
+              <h3 class="job-name">${currentWomen.jobs.job1.role} <span style="color:#ee7752; border:hidden">@ ${currentWomen.jobs.job1.company}</span></h3>
               <ul class="job-descrip">    
-                  <li>Descrip1</li>
-                  <br><br>
-                  <li>Descrip2</li>
+                ${currentWomen.jobs.job1.description}
                  
               </ul>
           </div>
           
           <div id="Job2" class="tabcontent">
-              <h3 class="job-name">Job 2 <span style="color:#ee7752;">@ Company</span></h3>
+              <h3 class="job-name">${currentWomen.jobs.job2.role} <span style="color:#ee7752;">@ ${currentWomen.jobs.job2.company}</span></h3>
               <ul class="job-descrip">
-                  <li>Descrip2</li><br><br>
-                  <li>Descrip2</li>
+              ${currentWomen.jobs.job2.description}
               </ul>
           </div>
           
           <div id="Job3" class="tabcontent">
-              <h3 class="job-name">Job 3 <span style="color:#ee7752;">@ Company</span></h3>
+              <h3 class="job-name">${currentWomen.jobs.job3.role} <span style="color:#ee7752;">@ ${currentWomen.jobs.job3.company}</span></h3>
               <ul class="job-descrip">
-                  <li>Descrip3</li>
-                  <br><br>
-                  <li>Descrip2</li>
+              ${currentWomen.jobs.job3.description}
                   
                 </ul>
           </div>
 
           <div id="Job4" class="tabcontent">
-              <h3 class="job-name">Job 4 <span style="color:#ee7752;">@ Company</span></h3>
+              <h3 class="job-name">${currentWomen.jobs.job4.role} <span style="color:#ee7752;">@ ${currentWomen.jobs.job4.company}</span></h3>
               <ul class="job-descrip">
-                  <li>Descrip4</li>
-                  <br><br>
-                  <li>Descrip2</li>
+              ${currentWomen.jobs.job4.description}
                   
                 </ul>
           </div>
@@ -136,38 +147,38 @@ const crisClick = () => {
       <h1 id="proj-title">Projects</h1>
       <div class="projects">
           <section>
-          <div>
-              <img src="images/pp.png"/>
-              <p class="description">
-                  <b>Project Name</b>
-                  &nbsp;&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali
-              </p>
-          </div>
+            <div>
+            <img src=${currentWomen.projects.proj1.proj_image_url}/>
+            <p class="description">
+              <b>${currentWomen.projects.proj1.proj_name}</b>
+              &nbsp;&nbsp; ${currentWomen.projects.proj1.description}
+            </p>
+            </div>
           </section>
           <section>
               <div>
-              <img src="images/pp.png"/>
+              <img src=${currentWomen.projects.proj2.proj_image_url}/>
               <p class="description">
-                  <b>Project Name</b>
-                  &nbsp;&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali
-              </p>
-              </div>
-          </section>
-          <section>
-              <div>
-              <img src="images/pp.png"/>
-              <p class="description">
-                  <b>Project Name</b>
-                  &nbsp;&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali
+                  <b>${currentWomen.projects.proj2.proj_name}</b>
+                  &nbsp;&nbsp; ${currentWomen.projects.proj2.description}
               </p>
               </div>
           </section>
           <section>
               <div>
-              <img src="images/pp.png"/>
+              <img src=${currentWomen.projects.proj3.proj_image_url}/>
               <p class="description">
-                  <b>Project Name</b>
-                  &nbsp;&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali
+                  <b>${currentWomen.projects.proj3.proj_name}</b>
+                  &nbsp;&nbsp; ${currentWomen.projects.proj3.description}
+              </p>
+              </div>
+          </section>
+          <section>
+              <div>
+              <img src=${currentWomen.projects.proj4.proj_image_url}/>
+              <p class="description">
+                  <b>${currentWomen.projects.proj4.proj_name}</b>
+                  &nbsp;&nbsp; ${currentWomen.projects.proj4.description}
               </p>
               </div>
           </section>
@@ -193,24 +204,16 @@ const crisClick = () => {
 </body>
   
 <script type="text/javascript" src="js/index.js"></script>`
+document.getElementById("defaultOpen").click();
 }
 
-updateDetail = () =>{
-  console.log(currentWomen)
-  document.querySelector('.email1').innerHTML = `
-  <a href="mailto:${currentWomen.email}">
-  <button class="big-button"> EMAIL</button>
-  </a> 
-  <br>
-  <br>
-  <br>
-  <br>`
-}
+
 
 function openJob(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
+      console.log("helllloo")
       tabcontent[i].style.display = "none";
     }
     tablinks = document.getElementsByClassName("tablinks");
@@ -222,6 +225,7 @@ function openJob(evt, cityName) {
   }
   
   document.getElementById("defaultOpen").click();
+
 
 
 // STICKY NAVBAR
