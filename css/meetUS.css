@@ -164,6 +164,8 @@ header ul {
      margin-left: 150px;
      position: relative;
  }
+
+ 
  .image-overlay {
     position: absolute;
     bottom: 0;
@@ -179,6 +181,8 @@ header ul {
     width: 100%;
     padding: 200px;  
   }
+
+  
 
  #profilepicp{
     width: 400px;
@@ -279,6 +283,7 @@ body {font-family: "Lato", sans-serif;}
 
 .job-descrip{
     list-style-type:circle;
+    text-align:left;
 }
 
 span#company{

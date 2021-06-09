@@ -63,51 +63,51 @@
             "_id": "w3",
             "name": "Charlotte Jones",
             "email": "charlottejones2022@u.northwestern.edu",
-            "image_url": "/charlotte_jones.jpg",
-            "about_me" : "Charlotte is a junior at Northwestern University, double majoring in Computer Science and Dance with minors in Film Studies and English Literature. Charlotte led the Peer Tutoring Program at Riverdale Country School and is now a Teacher's Assistant/ Peer Mentor for the Computer Science Department where she holds office hours, teaches weekly tutorial sessions and mentors her amazing students! She recently received the Spring 2020 Peter and Adrienne Barris Service Award for excellence in teaching. Specifically interested in Human Computer Interaction, Artificial Intelligence, and App Development, she is also a member of WiC (Women in Computing) where she promotes her fellow Women in STEM. She sees CS as an intersection of logic and creativity —a fusion of math, puzzles, and art. Fluent in Spanish, Char also studied ethics, international policy, Arabic, and Mandarin in D.C. at the School for Ethics and Global Leadership. She has continued her studies with the school as a guest speaker in Shakespeare as well as a mentee of Carl Wilkens in Rwanda. Her biggest passion project is founding Mission S.P.A. (Sanitary Product Awareness), a non-profit that collects and donates sanitary products to local NYC shelters along with schools in Nepal. When Charlotte is not computing, dancing, or advocating for gender equity worldwide, she is diving for the NCAA Midwestern conference, training for triathlons, watching House and eating pierogies. Her eclectic academic interests match her enthusiastic and individualized approach to teaching, mentoring, tutoring, and learning.",
+            "image_url": "char2.png",
+            "about_me" : "Charlotte is  junior at Northwestern double majoring in Computer Science and Dance. She is a Teacher’s Assistant/ Peer Mentor for the Computer Science Department at Northwestern where she holds office hours, teaches weekly tutorial sessions and mentors her amazing students! She most recently received the Spring 2020 Peter and Adrienne Barris Service Award for excellence in teaching. She is specifically interested in Human Computer Interaction, Artificial Intelligence,  and App Development as well as being a member of WiC (Women in Computing) where she promotes her fellow Women in STEM. She sees CS as an intersection of logic and creativity, a fusion of math, puzzles, even art. Fluent in Spanish, she studied ethics, international policy, Arabic, and Mandarin at the School for Ethics and Leadership in D.C. When Charlotte is not computings, dancing, reciting Shakespeare or watching films, she is Competing for the NCAA Midwestern conference in Diving, training for triathlons, watching House and eating pirogies!",
             "jobs": {
                
                 "job1": {
                     "role": "Software Engineering Intern",
                     "company": "Groupon ",
-                    "description": "<li>Descrip</li> <br><br> <li>Descrip</li>"
+                    "description": "<li>Charlotte joined Groupon as a Software engineering Intern where she works on the iOS team with all things swift, UI, and fun</li> <br><br> <li>Summer 2021</li>"
                 },
                 "job2": {
                     "role": "Peer Mentor/TA",
                     "company": "Computer Science Dept NU",
-                    "description": "<li>Holds office hours, teaches a mandatory weekly tutorial session for groups of 15- 25 students, and facilitates questions over Zoom in the 200+ lecture.</li>"
+                    "description": "<li>Holds office hours, teaches a mandatory weekly tutorial session for groups of 15- 25 students, and facilitates questions over Zoom in the 200+ lecture.</li>  <br><br> <li>2019-2021</li> "
                 },
                 "job3": {
                     "role": "Web Accessibility Assistant",
                     "company": "Global Marketing and Communications at NU",
-                    "description": "<li>Ensure that digital content is accessible for the entire Northwestern Community.</li> <br><br> <li>Descrip</li>"
+                    "description": "<li>Ensure that digital content is accessible for the entire Northwestern Community.</li> <br><br> <li>2020-2021</li>"
                 },
                 "job4": {
                     "role": "Software Engineering Intern",
                     "company": "Rapunzl Investments",
-                    "description": "<li> Assisted in revamping investment banking educational branch website, along with various portal and tech tasks.</li>"
+                    "description": "<li> Assisted in revamping investment banking educational branch website, along with various portal and tech tasks.</li>  <br><br> <li>Summer 2020</li>"
                 }
             },
             "projects": {
                
                 "proj1": {
                     "proj_name": "DTR: SOAP NOTES",
-                    "proj_image_url": "fill in",
+                    "proj_image_url": "images/SOAP.png",
                     "description": "Current Project for Design, Technology, Research, a project course at Northwestern the optimizes, builds, and tests, structured note-taking in a mentor-mentee research setting"
                 },
                 "proj2": {
                     "proj_name": "CS 303: Happiness Jar",
-                    "proj_image_url": "fill in",
+                    "proj_image_url": "images/happy.png",
                     "description": "Final Project for Intro to HCI, a project course at Northwestern. The App explores themes around happiness and recalling one good thing that happened each day to promote peace and gratitude"
                 },
                 "proj3": {
                     "proj_name": "TicTacs & Toes",
-                    "proj_image_url": "fill in",
-                    "description": "Independent Project working with Swift that explores BLANK"
+                    "proj_image_url": "images/toe.png",
+                    "description": "Independent Project working with Swift that explores game design and App Dev!"
                 },
                 "proj4": {
                     "proj_name": "CS 377: Scooba Shooter",
-                    "proj_image_url": "fill in",
+                    "proj_image_url": "/images/scuba.png",
                     "description": "Final Project for Game Studio, a project course at Northwestern. The Unity Built game explores themes of UI, continuous data and more through the endless runner shooter game. Underwater adventure and prioritization."
                 }
             }  
