@@ -107,7 +107,7 @@
                 },
                 "proj4": {
                     "proj_name": "CS 377: Scooba Shooter",
-                    "proj_image_url": "/images/scuba.png",
+                    "proj_image_url": "images/scuba.png",
                     "description": "Final Project for Game Studio, a project course at Northwestern. The Unity Built game explores themes of UI, continuous data and more through the endless runner shooter game. Underwater adventure and prioritization."
                 }
             }  
