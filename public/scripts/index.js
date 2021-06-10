@@ -48,7 +48,7 @@ const charClick = () => {
 
 const updateDetail= () => {
   document.getElementById(`hello`).innerHTML = `<header> 
-  <link rel="stylesheet" href="css/meetUS.css">
+  <link rel="stylesheet" href="public/css/meetUS.css">
   <div id="navbar">
       <ul>
           
@@ -204,7 +204,7 @@ const updateDetail= () => {
   </div>
 </body>
   
-<script type="text/javascript" src="js/index.js"></script>`
+<script type="text/javascript" src="public/scripts/index.js"></script>`
 document.getElementById("defaultOpen").click();
 }
 
