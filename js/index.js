@@ -157,6 +157,7 @@ const updateDetail= () => {
           </section>
           <section>
               <div>
+              
               <img src="${currentWomen.projects.proj2.proj_image_url}"/>
               <p class="description">
                   <b>${currentWomen.projects.proj2.proj_name}</b>
