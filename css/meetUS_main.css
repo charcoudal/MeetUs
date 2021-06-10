@@ -136,6 +136,11 @@ main {
       font-weight: bold;
       font-style: normal;
   }
+
+  .lin:hover{
+    margin: 24px 0;
+    cursor: pointer;
+}
   button {
     border: none;
     outline: 0;

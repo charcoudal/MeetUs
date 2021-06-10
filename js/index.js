@@ -73,10 +73,12 @@ const updateDetail= () => {
 
   <div class="sidenav">
       <ul style="list-style-type:none;">
-          <li> <img src="images/github-logo.png" alt="github link" height="30" width="30" > </li>
-          <li> <img src="images/linkedin.png" alt="linkedin link" height="30" width="30" > </li>
-          <li> <img src="images/instagram.png" alt="instagram link" height="30" width="30" > </li>
-          <li><div class="vl"></div></li>
+          <a href="${currentWomen.git}"> <img href="${currentWomen.git}" src="images/github-logo.png" alt="github link" height="30" width="30" > </a>
+          <br>
+          <a href="${currentWomen.linked}" > <img href="${currentWomen.linked}" src="images/linkedin.png" alt="linkedin link" height="30" width="30" > </a>
+         <br>
+          <a href="${currentWomen.insta}"> <img href="${currentWomen.insta}" src="images/instagram.png" alt="instagram link" height="30" width="30" > </a>
+          
       </ul>
     </div>
 
@@ -146,7 +148,7 @@ const updateDetail= () => {
       <div class="projects">
           <section>
             <div>
-            <img src=${currentWomen.projects.proj1.proj_image_url}/>
+            <img src="${currentWomen.projects.proj1.proj_image_url}"/>
             <p class="description">
               <b>${currentWomen.projects.proj1.proj_name}</b>
               &nbsp;&nbsp; ${currentWomen.projects.proj1.description}
@@ -155,7 +157,8 @@ const updateDetail= () => {
           </section>
           <section>
               <div>
-              <img src=${currentWomen.projects.proj2.proj_image_url}/>
+              
+              <img src="${currentWomen.projects.proj2.proj_image_url}"/>
               <p class="description">
                   <b>${currentWomen.projects.proj2.proj_name}</b>
                   &nbsp;&nbsp; ${currentWomen.projects.proj2.description}
@@ -164,7 +167,7 @@ const updateDetail= () => {
           </section>
           <section>
               <div>
-              <img src=${currentWomen.projects.proj3.proj_image_url}/>
+              <img src="${currentWomen.projects.proj3.proj_image_url}"/>
               <p class="description">
                   <b>${currentWomen.projects.proj3.proj_name}</b>
                   &nbsp;&nbsp; ${currentWomen.projects.proj3.description}
@@ -173,7 +176,7 @@ const updateDetail= () => {
           </section>
           <section>
               <div>
-              <img src=${currentWomen.projects.proj4.proj_image_url}/>
+              <img src="${currentWomen.projects.proj4.proj_image_url}"/>
               <p class="description">
                   <b>${currentWomen.projects.proj4.proj_name}</b>
                   &nbsp;&nbsp; ${currentWomen.projects.proj4.description}
