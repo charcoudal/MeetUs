@@ -8,51 +8,51 @@
             "git": "https://github.com/cristinabarclay",
             "insta": "https://www.instagram.com/cristinabarclay/",
             "linked": "https://www.linkedin.com/in/cristina-barclay-7b7386143/",
-            "about_me" : "fill in",
+            "about_me" : "I am a junior at Northwestern majoring in Computer Science and minoring in Business Institutions. You can find me at the intersection of creativity and problem solving. Apart from my academic life I love films and hope to some day be involved in the entertainment industry.",
             "jobs": {
                 
                 "job1": {
-                    "role": "fill in ex intern",
+                    "role": "Product Development",
                     "company": "CreaCode",
-                    "description": "<li>i did this</li> <br><br> <li>i also did this</li>"
+                    "description": "<li>Expanded company’s reach internationally through collaborations with the biggest Edtech women startup in Peru, Girl Scouts, and other organizations to Latin America, and the US</li> <br><br> <li>Improved, and recreated curriculums for Python, Web Design, Machine Learning, and Scratch introducing concepts such as Design Thinking, HCI, and Project Management</li>"
                 },
                 "job2": {
-                    "role": "fill in ex intern",
+                    "role": "Finance Manager",
                     "company": "RezEssentials",
-                    "description": "<li>Descrip</li> <br><br> <li>Descrip</li>"
+                    "description": "<li>Work together with the General Manager to determine the best marketing initiatives based on ROI and CAC derived by data analysis from Shopify, Google Adwords and Google Analytics</li> <br><br> <li>Create projections of revenues, costs, and EBIT with a view to the future for the next fiscal year using a bottom-up analysis, revenue growth by segment and expected costs</li>"
                 },
                 "job3": {
-                    "role": "fill in ex intern",
+                    "role": "Data Intern",
                     "company": "Banco de Credito del Peru",
-                    "description": "<li>Descrip</li> <br><br> <li>Descrip</li>"
+                    "description": "<li>Worked alongside the Data Architecture/Engineering Chapter and McKinsey tech consultants to research, and present a new cloud-based columnar database and CDC database for Real Time solutions</li> <br><br> <li>Managed JIRA platform by attending Scrum, and Kanban workshops, big room planning, and sprint reviews/li>"
                 },
                 "job4": {
-                    "role": "fill in ex intern",
-                    "company": "fill in, ex apple",
-                    "description": "<li>Descrip</li> <br><br> <li>Descrip</li>"
+                    "role": "Experience Team Member",
+                    "company": "The Melodi House",
+                    "description": "<li>Raised $10K for beta testing of physical space by curating and pitching a proposal</li> <br><br> <li>Collaborate and administer relationships with different fashion, art clubs to create and design events for fashion shows, exhibitions and after parties.</li>"
                 }
             },
             "projects": {
                 
                 "proj1": {
-                    "proj_name": "fill in",
-                    "proj_image_url": "images/pp.png",
-                    "description": "fill in"
+                    "proj_name": "CS 330: Loop",
+                    "proj_image_url": "loop.png",
+                    "description": "CS 330 final project to let your friends and family loop about your mental health state and keep record of it. "
                 },
                 "proj2": {
-                    "proj_name": "fill in",
-                    "proj_image_url": "images/pp.png",
-                    "description": "fill in"
+                    "proj_name": "CS 396: Web Portfolio",
+                    "proj_image_url": "web.png",
+                    "description": "Final Project for CS 396 where we created a web portoflio to showcase women in STEM."
                 },
                 "proj3": {
-                    "proj_name": "fill in",
-                    "proj_image_url": "images/pp.png",
-                    "description": "fill in"
+                    "proj_name": "Space Game",
+                    "proj_image_url": "images/unity.jpg",
+                    "description": "Final project for a game developent class where we created a kind of space invaders game with different levels and effects."
                 },
                 "proj4": {
-                    "proj_name": "fill in",
-                    "proj_image_url": "images/pp.png",
-                    "description": "fill in"
+                    "proj_name": "WeFit",
+                    "proj_image_url": "images/wefit.jpg",
+                    "description": "Social fitness app to connect with your friends and motivate you to workout."
                 }
             }   
             

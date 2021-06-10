@@ -107,7 +107,7 @@ header li{
 
 li {
   float: left;
-  text-align: center;
+  text-align: left;
   font-size: large;
   font-style: italic;
 }
