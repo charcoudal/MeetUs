@@ -57,7 +57,56 @@
         {
             "_id": "w2",
             "name": "Natalia Novoa",
-            "email": "natalianovoa2022@u.northwestern.edu"
+            "email": "natalianovoa2022@u.northwestern.edu",
+            "image_url":"nati_novoa.jpg",
+            "about_me" : "I am a junior at Northwestern majoring in Computer Science and minoring in Entrepreneurship. I am passionate about technology and Sustainability, and want to work in the e-commerce space once I graduate.",
+            "jobs": {
+               
+                "job1": {
+                    "role": "CEO & Operations",
+                    "company": "Living Broccoli ",
+                    "description": "<li>I am in charge of E-Commerce logistics at Living Broccoli. From website and brand design, to marketing and sales, to shipping organization. </li> <br><br> <li>Summer 2021</li>"
+                },
+                "job2": {
+                    "role": "Founder & CEO",
+                    "company": "Blue Eco LLC",
+                    "description": "<li>Founder and CEO at Blue Eco LLC, an e-commerce company focused on optimizing dropshipping operations.</li>  <br><br> <li>2019-2021</li> "
+                },
+                "job3": {
+                    "role": "Founder",
+                    "company": "ZUM Influence",
+                    "description": "<li>Tech Company -- App.</li> <br><br> <li>2020-2021</li>"
+                },
+                "job4": {
+                    "role": "Daughter",
+                    "company": "Novoa Family",
+                    "description": "<li> I have 4 younger sisters. LOL .</li>  <br><br> <li>Summer 2020</li>"
+                }
+            },
+            "projects": {
+               
+                "proj1": {
+                    "proj_name": "CS 330: Loop",
+                    "proj_image_url": "loop.png",
+                    "description": "CS 330 Emotional records project"
+                },
+                "proj2": {
+                    "proj_name": "CS 396: Web Portfolio",
+                    "proj_image_url": "web.png",
+                    "description": "Final Project for CS 396."
+                },
+                "proj3": {
+                    "proj_name": "CS 330: Loop",
+                    "proj_image_url": "loop.png",
+                    "description": "CS 330 Emotional records project"
+                },
+                "proj4": {
+                    "proj_name": "CS 396: Web Portfolio",
+                    "proj_image_url": "web.png",
+                    "description": "Final Project for CS 396."
+                }
+            }  
+
         },
         {
             "_id": "w3",

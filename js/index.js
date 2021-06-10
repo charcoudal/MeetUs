@@ -148,7 +148,7 @@ const updateDetail= () => {
       <div class="projects">
           <section>
             <div>
-            <img src=${currentWomen.projects.proj1.proj_image_url}/>
+            <img src="${currentWomen.projects.proj1.proj_image_url}"/>
             <p class="description">
               <b>${currentWomen.projects.proj1.proj_name}</b>
               &nbsp;&nbsp; ${currentWomen.projects.proj1.description}
@@ -157,7 +157,7 @@ const updateDetail= () => {
           </section>
           <section>
               <div>
-              <img src=${currentWomen.projects.proj2.proj_image_url}/>
+              <img src="${currentWomen.projects.proj2.proj_image_url}"/>
               <p class="description">
                   <b>${currentWomen.projects.proj2.proj_name}</b>
                   &nbsp;&nbsp; ${currentWomen.projects.proj2.description}
@@ -166,7 +166,7 @@ const updateDetail= () => {
           </section>
           <section>
               <div>
-              <img src=${currentWomen.projects.proj3.proj_image_url}/>
+              <img src="${currentWomen.projects.proj3.proj_image_url}"/>
               <p class="description">
                   <b>${currentWomen.projects.proj3.proj_name}</b>
                   &nbsp;&nbsp; ${currentWomen.projects.proj3.description}
@@ -175,7 +175,7 @@ const updateDetail= () => {
           </section>
           <section>
               <div>
-              <img src=${currentWomen.projects.proj4.proj_image_url}/>
+              <img src="${currentWomen.projects.proj4.proj_image_url}"/>
               <p class="description">
                   <b>${currentWomen.projects.proj4.proj_name}</b>
                   &nbsp;&nbsp; ${currentWomen.projects.proj4.description}

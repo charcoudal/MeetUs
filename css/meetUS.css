@@ -134,10 +134,12 @@ li a:hover {
   font-weight: bolder;
   font-size: larger;
   font-style: normal;
+  padding-right: 800px;
 }
 
-.name a:hover{
-  background-color: gray;
+.name:hover{
+background: none;
+color :white;
 }
 
 /*ABOUT ME*/
@@ -272,6 +274,7 @@ text-align: left;
 
 .job-descrip{
   list-style-type:circle;
+  text-align: left;
 }
 
 span#company{
