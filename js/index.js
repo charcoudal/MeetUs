@@ -75,10 +75,12 @@ const updateDetail= () => {
 
   <div class="sidenav">
       <ul style="list-style-type:none;">
-          <li> <img src="images/github-logo.png" alt="github link" height="30" width="30" > </li>
-          <li> <img src="images/linkedin.png" alt="linkedin link" height="30" width="30" > </li>
-          <li> <img src="images/instagram.png" alt="instagram link" height="30" width="30" > </li>
-          <li><div class="vl"></div></li>
+          <a href="${currentWomen.git}"> <img href="${currentWomen.git}" src="images/github-logo.png" alt="github link" height="30" width="30" > </a>
+          <br>
+          <a href="${currentWomen.linked}" > <img href="${currentWomen.linked}" src="images/linkedin.png" alt="linkedin link" height="30" width="30" > </a>
+         <br>
+          <a href="${currentWomen.insta}"> <img href="${currentWomen.insta}" src="images/instagram.png" alt="instagram link" height="30" width="30" > </a>
+          
       </ul>
     </div>
 

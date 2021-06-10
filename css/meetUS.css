@@ -169,6 +169,7 @@ color :white;
    margin-left: 150px;
    position: relative;
    border-radius: 15%;
+   
 }
 
 #profilepicp{
@@ -492,13 +493,14 @@ button.big-button:active::before {
 }
 
 .sidenav ul {
-  padding: 6px 8px 10px 6px;
+
+  padding: 36px 8px 10px 6px;
   text-decoration: none;
   color: #2196F3;
   display: block;
 }
 
-.sidenav li {
+.sidenav a{
   
   text-align: center;
   padding: 8px 16px;
