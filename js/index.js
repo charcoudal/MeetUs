@@ -25,9 +25,7 @@ const fetchWomen = () => {
 }
 
 fetchWomen();
-
-
-
+ 
 
 const crisClick = () => {
   console.log("hre")
